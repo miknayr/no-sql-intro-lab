@@ -39,7 +39,7 @@ Fork and clone this repository and answer questions as you research directly in 
     JSON documents are everywhere. Documents are a superset of all other data models so you can structure data any way your application needs – rich objects, key-value pairs, tables, geospatial and time-series data, and the nodes and edges of a graph.
   
   - Powerful;
-  MongoDB comprehensive, and expressive. Ad hoc queries, indexing, and real time aggregations provide powerful ways to access, transform, and analyze your data.
+MongoDB comprehensive, and expressive. Ad hoc queries, indexing, and real time aggregations provide powerful ways to access, transform, and analyze your data.
   With ACID transactions you maintain the same guarantees you’re used to in SQL databases, whether manipulating data in a single document, or across multiple documents living in multiple shards.
 
   - Distributed;
@@ -50,17 +50,18 @@ Fork and clone this repository and answer questions as you research directly in 
   - SQL databases are used to store structured data while NoSQL databases like MongoDB are used to save unstructured data. MongoDB is used to save unstructured data in JSON format. MongoDB does not support advanced analytics and joins like SQL databases support. 
 
 5. Mongo DBs are organized into documents. Describe an example of a table in SQL that contains users, and then describe the equivalent DB setup in Mongo. 
+
 - SQL stores data in tables, where columns are the attributes and rows are the value/property of the table. all these tables live inside databases.
+
 - In MongoDB, data is stored in a collection, thats similar to MySQL tables. a collectiong consists of many documents in which data is stored in JSON format of key-value
 
 basically each column is a collection and within each collection, the data inside is the rows?
 
 ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties focus on the consistency and reliability of the transaction done in the database. 
 
-
-
 - In MySQL, the data is stored in tables, where the column denotes the attribute and row represents a particular record. These tables, in turn, reside inside the databases. In MongoDB, data is stored in collections that are analogous to MySQL tables. A collection can consist of many documents in which data is stored in JSON format of key-value. There can be hundreds of such collections inside a MongoDB database.
 
 6. What is an example situation where a Mongo database makes sense versus a non-relational db?
-
-I think a public list of cities, neighborhoods, streets that are publically known makes sense for a mongo DB vs a list of the home owners who opted into a program that identify themselves in the houses on the streets would be better for mySQL.
+- personal preference
+- size
+- relational vs non-relational
